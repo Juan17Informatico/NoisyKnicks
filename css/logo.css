@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+.cont figure {
+    margin: 0px 40px;
+}
+
+
+.cont{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    margin-top: 30px; 
+    height: 100vh;
+}
+
+.cont figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    cursor: pointer;
+}
+
+.cont figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.cont figure .cap{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 104, 107, 0.425);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: height;
+    text-align: center;
+}
+
+.cont figure:hover > .cap{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont figure .cap a{
+    text-decoration: none;
+}
+
+.cont figure:hover > .cap h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+
+}
+
+.cont figure:hover .cap h3{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 110px;
+}
+
+.cont figure:hover > img{
+    transform: scale(1.3);
+}
