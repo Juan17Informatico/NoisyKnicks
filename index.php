@@ -91,7 +91,7 @@
         <main>
             <form action="login/index.php" method="POST">
             <div class="card" id="1">
-            <a title="NoisyKnicks" href="login/index.php"><img src="../img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>                            
+            <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>                            
             </div>  
             </form>
         </main>      
@@ -99,7 +99,7 @@
         <main>
             <form action="login/index.php" method="POST">
             <div class="card" id="1">
-            <a title="NoisyKnicks" href="login/index.php"><img src="../img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>                            
+            <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>                            
             </div>  
             </form>
         </main>
