@@ -18,7 +18,7 @@
                     <li class="list_item">
                         <div class="list_button">
                             <img src="assets/inicio.svg" class="list_img">
-                            <a href="login/index.php" class="nav_link">Principal</a>   
+                            <a href="index.php" class="nav_link">Principal</a>   
                         </div>
                     </li>
                     <li class="list_item">
