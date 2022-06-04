@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/stilo.css">
-    <title>Document</title>
+    <title>NoisyKnicks | Inicio</title>
 </head>
+
 <body>
 
     <div class="options__inside">
@@ -18,7 +20,7 @@
                     <li class="list_item">
                         <div class="list_button">
                             <img src="assets/inicio.svg" class="list_img">
-                            <a href="index.php" class="nav_link">Principal</a>   
+                            <a href="index.php" class="nav_link">Principal</a>
                         </div>
                     </li>
                     <li class="list_item">
@@ -78,7 +80,7 @@
                         <ul class="list_show">
                             <li class="list_inside">
                                 <a href="login/Conocenos.html" class="nav_link nav_link--inside">Misión y Visión</a>
-                            </li>       
+                            </li>
                         </ul>
                     </li>
 
@@ -90,17 +92,17 @@
 
         <main>
             <form action="login/index.php" method="POST">
-            <div class="card" id="1">
-            <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>                            
-            </div>  
+                <div class="card" id="1">
+                    <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
+                </div>
             </form>
-        </main>      
+        </main>
 
         <main>
             <form action="login/index.php" method="POST">
-            <div class="card" id="1">
-            <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>                            
-            </div>  
+                <div class="card" id="1">
+                    <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
+                </div>
             </form>
         </main>
 
@@ -108,4 +110,5 @@
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
