@@ -1,17 +1,17 @@
-:root{
-    --dark: #16191c;
-    --dark-x: 1e2126;
-    --light: #ffffff;
+:root {
+  --dark: #16191c;
+  --dark-x: 1e2126;
+  --light: #ffffff;
 }
-body{
-    font-family: 'Spartan', sans-serif;
-    font-weight: 300;
-    color: var(--ligth);
+body {
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
+  color: var(--ligth);
 }
-img{
-        
-    border-radius: 20px;
+img {
+  border-radius: 20px;
 }
 
-.bg--dark{background-color: var(--dark) !important;}
-
+.bg--dark {
+  background-color: var(--dark) !important;
+}
