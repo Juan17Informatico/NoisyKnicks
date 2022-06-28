@@ -10,10 +10,17 @@
 </head>
 
 <body>
-
-    <div class="options__inside">
-
-        <aside>
+    <div class="container">
+        <header class="header">
+            <main>
+                <form action="login/index.php" method="POST">
+                    <div class="card" id="1">
+                        <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
+                    </div>
+                </form>
+            </main>
+        </header>
+        <aside class="aside">
             <nav class="nav">
 
                 <ul class="list">
@@ -89,25 +96,10 @@
             </nav>
 
         </aside>
+        <main class="contenido">
 
-        <main>
-            <form action="login/index.php" method="POST">
-                <div class="card" id="1">
-                    <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
-                </div>
-            </form>
         </main>
-
-        <main>
-            <form action="login/index.php" method="POST">
-                <div class="card" id="1">
-                    <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
-                </div>
-            </form>
-        </main>
-
     </div>
-
     <script src="js/main.js"></script>
 </body>
 
