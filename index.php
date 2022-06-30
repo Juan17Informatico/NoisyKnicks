@@ -12,13 +12,9 @@
 <body>
     <div class="container">
         <header class="header">
-            <main>
-                <form action="login/index.php" method="POST">
-                    <div class="card" id="1">
-                        <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
-                    </div>
-                </form>
-            </main>
+            <div class="card" id="1">
+                <a class="logo-header" title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
+            </div>
         </header>
         <aside class="aside">
             <nav class="nav">
@@ -96,9 +92,17 @@
             </nav>
 
         </aside>
-        <main class="contenido">
-
+        <main class="main">
+            <div>
+                inventore dolorum nostrum eius ullam quibusdam voluptatum unde, vitae fuga perspiciatis fugit impedit praesentium dolores. In, officiis. Minima, ab. Recusandae.
+                Fugiat ad voluptatem hic, itaque architecto sunt dolorem repellendus iusto beatae placeat accusamus sint veritatis eos a nihil quo adipisci quia dolorum. Vero, officia commodi dicta adipisci ex cum dignissimos.
+                Perspiciatis obcaecati laborum doloribus, odio eveniet deleniti temporibus odit officiis aspernatur recusandae dicta ratione dolores ipsum eum reiciendis enim quam alias fuga ex repellendus corporis? Corporis excepturi distinctio ab molestias.
+                Vitae nesciunt id reprehenderit at ut! Illum, expedita, necessitatibus iste consequuntur vero sed minima mollitia amet quod enim recusandae excepturi eum, libero modi. Sequi quas, minus delectus quis esse ipsum?
+            </div>
         </main>
+        <footer class="footer">
+
+        </footer>
     </div>
     <script src="js/main.js"></script>
 </body>
