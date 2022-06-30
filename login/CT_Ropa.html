@@ -1,28 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/logo.css">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/stilo.css" />
+    <link rel="stylesheet" href="../Libs/BootStrap/css/bootstrap.css" />
+    <script class="../Libs/BootStrap/js/bootstrap.js"></script>
+    <!-- <link rel="stylesheet" href="../css/logo.css"> -->
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- BANDA CON LOGO -->
+    <main>
+      <form action="login/index.php" method="POST">
+        <div class="tarjeta d-flex justify-content-between" id="1">
+          <a title="NoisyKnicks" href="../index.php" class="m-auto p-0"
+            ><img src="../img/Página/Logo.jpeg" alt="NoisyKnicks"
+          /></a>
+        </div>
+      </form>
+    </main>
 
-    <div class="cont">
-
-        <figure>
-            <img src="../img//Ropa/Producto1.jpg">
-
-            <div class="cap">
-
-                <a href="https://www.youtube.com/watch?v=6g_-Q09iiks">
-                    <h3>Calzado</h3>
-                </a>
-
+    <!-- CONTENEDORES Y CARDS -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card" style="width: 400px; margin: 22px">
+            <img
+              class="card-img-top"
+              src="../img/Ropa/Ropa1.jpeg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text" style="color: black">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a
+                href="../Pedido/bootstrap4b-plantilla-inicial-master/index.html"
+                class="btn btn-danger stretched-link"
+                >See Profile</a
+              >
             </div>
+          </div>
+        </div>
 
-        </figure>
-    
-</body>
+        <div class="col-sm-4">
+          <div class="card" style="width: 400px; margin: 22px">
+            <img
+              class="card-img-top"
+              src="../img/Ropa/Ropa2.jpeg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text" style="color: black">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a
+                href="../Pedido/bootstrap4b-plantilla-inicial-master/index.html"
+                class="btn btn-danger stretched-link"
+                >See Profile</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card" style="width: 400px; margin: 22px">
+            <img
+              class="card-img-top"
+              src="../img/Ropa/Ropa3.jpeg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text" style="color: black">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a
+                href="../Pedido/bootstrap4b-plantilla-inicial-master/index.html"
+                class="btn btn-danger stretched-link"
+                >See Profile</a
+              >
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,20 @@
     <link rel="stylesheet" type="text/css" href="css/stilo.css">
     <title>Document</title>
 </head>
+
 <body>
 
-    <div class="options__inside">
 
+    <!-- BANDA CON LOGO -->
+    <main>
+        <form action="login/index.php" method="POST">
+            <div class="tarjeta d-flex justify-content-between" id="1">
+                <a title="NoisyKnicks" href="../index.php" class="m-auto p-0"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
+            </div>
+        </form>
+    </main>
+
+    <div class="options__inside">
         <aside>
             <nav class="nav">
 
@@ -18,7 +29,7 @@
                     <li class="list_item">
                         <div class="list_button">
                             <img src="assets/inicio.svg" class="list_img">
-                            <a href="index.php" class="nav_link">Principal</a>   
+                            <a href="index.php" class="nav_link">Principal</a>
                         </div>
                     </li>
                     <li class="list_item">
@@ -78,36 +89,16 @@
                         <ul class="list_show">
                             <li class="list_inside">
                                 <a href="login/Conocenos.html" class="nav_link nav_link--inside">Misión y Visión</a>
-                            </li>       
+                            </li>
                         </ul>
                     </li>
 
                 </ul>
-
             </nav>
-
         </aside>
-
-        <main>
-            <form action="login/index.php" method="POST">
-            <div class="card" id="1">
-            <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>                            
-            </div>  
-            </form>
-        </main>      
-
-        <main>
-            <form action="login/index.php" method="POST">
-            <div class="card" id="1">
-            <a title="NoisyKnicks" href="login/index.php"><img src="img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>                            
-            </div>  
-            </form>
-        </main>
-
-        
-
     </div>
-
     <script src="js/main.js"></script>
+
 </body>
+
 </html>

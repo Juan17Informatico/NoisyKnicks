@@ -5,7 +5,6 @@
 }
 
 body {
-  overflow: hidden;
   background: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
   background-size: cover;
@@ -97,13 +96,13 @@ body .main .tarjeta {
 }
 
 .list {
-  width: 125%;
+  width: 135%;
   height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background: rgb(0, 0, 0);
-  left: -250px;
+  left: auto;
 }
 
 .list_item {
@@ -209,6 +208,6 @@ body .main .tarjeta {
 }
 
 #div1 {
-    max-height: 350px;
-    overflow-y: auto;
+  max-height: 350px;
+  overflow-y: auto;
 }
