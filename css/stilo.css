@@ -17,12 +17,14 @@ body {
     "aside header"
     "aside main"
     "aside footer";
-  grid-template-rows: 200px 90vh 30px;
-  grid-template-columns: 200px 1fr;
+  grid-template-rows: 150px 90vh 30px;
+  grid-template-columns: 250px 1fr;
 }
 
 .header {
   grid-area: header;
+  align-items: center;
+  text-align: center;
 }
 
 .aside {

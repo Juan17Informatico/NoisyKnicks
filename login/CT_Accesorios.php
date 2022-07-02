@@ -14,14 +14,7 @@
 </head>
 
 <body>
-  <!-- BANDA CON LOGO -->
-  <main>
-    <form action="login/index.php" method="POST">
-      <div class="tarjeta d-flex justify-content-between" id="1">
-        <a title="NoisyKnicks" href="../index.php" class="m-auto p-0"><img src="../img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
-      </div>
-    </form>
-  </main>
+
 
   <!-- CONTENEDORES Y CARDS -->
   <div class="container-fluid">

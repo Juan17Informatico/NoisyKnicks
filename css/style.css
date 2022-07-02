@@ -3,11 +3,7 @@
   --dark-x: 1e2126;
   --light: #ffffff;
 }
-body {
-  font-family: "Spartan", sans-serif;
-  font-weight: 300;
-  color: var(--ligth);
-}
+
 img {
   border-radius: 20px;
 }

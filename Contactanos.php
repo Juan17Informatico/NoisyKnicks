@@ -2,34 +2,25 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/Letras.css" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/logo.css">
-  <link rel="stylesheet" href="../Libs/BootStrap/css/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="../css/stilo.css" />  
-  <link rel="icon" href="../img/ICN/Cono.png">
-  <title>Conocenos</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Letras.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/logo.css">
+    <link rel="stylesheet" type="text/css" href="./css/stilo.css" />
+    <link rel="icon" href="../img/ICN/Ubi.png">
+    <title>Contactanos</title>
 </head>
 
-<body>
-
-  <!-- BANDA CON LOGO -->
-  <main>
-    <form action="login/index.php" method="POST">
-      <div class="tarjeta d-flex justify-content-between" id="1">
-        <a title="NoisyKnicks" href="../index.php" class="m-auto p-0"><img src="../img/Página/Logo.jpeg" alt="NoisyKnicks" /></a>
-      </div>
-    </form>
-  </main>
-
-  <h1>
+<?php
+include './vista/encabezado.php';
+?>
+<h1>
     <center>¿Quiénes somos?</center>
-  </h1>
+</h1>
 
-  <p class="text">
+<p class="text">
     El deporte nos mantiene en forma. Te mantiene atento. Nos une. A través
     del deporte podemos cambiar vidas. Ya sea a través de historias de atletas
     inspiradores. Animándote a ponerte en marcha. Ofreciéndote artículos
@@ -69,28 +60,28 @@
     nuestras prendas de estilo urbano adidas Originals también pueden usarse
     como ropa deportiva. Nuestras vidas están cambiando constantemente. Cada
     vez son más versátiles. Y en adidas diseñamos pensando en eso.
-  </p>
-  <card>
-    <div class="contenido">
-      <h2>MISIÓN</h2>
-      <p>
-        somos una organización la cual produce y comercializa calzado de
-        excelente calidad, buscando siempre una mejora continua para la
-        satisfacción y comodidad de nuestros clientes.
-      </p>
+</p>
+<card>
+    <div class="card-body">
+        <h2>MISIÓN</h2>
+        <p>
+            somos una organización la cual produce y comercializa calzado de
+            excelente calidad, buscando siempre una mejora continua para la
+            satisfacción y comodidad de nuestros clientes.
+        </p>
     </div>
-  </card>
+</card>
 
-  <card>
-    <div class="contenido">
-      <h2>VISIÓN</h2>
-      <p>
-        nuestro objetivo a largo plazo es lograr ser una empresa reconocida a
-        nivel nacional y posicionarnos en el mercado como una de las mejores
-        empresas por la comodidad y calidad de nuestros productos.
-      </p>
+<card>
+    <div class="card-body">
+        <h2>VISIÓN</h2>
+        <p>
+            nuestro objetivo a largo plazo es lograr ser una empresa reconocida a
+            nivel nacional y posicionarnos en el mercado como una de las mejores
+            empresas por la comodidad y calidad de nuestros productos.
+        </p>
     </div>
-  </card>
-</body>
-
-</html>
+</card>
+<?php
+include './vista/footer.php';
+?>

@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/stilo.css">
-    <title>NoisyKnicks | Inicio</title>
-</head>
-
 <body>
     <div class="container">
         <header class="header">
@@ -36,17 +25,17 @@
 
                         <ul class="list_show">
                             <li class="list_inside">
-                                <a href="./login/CT_Calzado.html" class="nav_link nav_link--inside">Calzado</a>
+                                <a href="./login/CT_Calzado.php" class="nav_link nav_link--inside">Calzado</a>
 
                             </li>
 
                             <li class="list_inside">
-                                <a href="./login/CT_Ropa.html" class="nav_link nav_link--inside">Ropa</a>
+                                <a href="./login/CT_Ropa.php" class="nav_link nav_link--inside">Ropa</a>
 
                             </li>
 
                             <li class="list_inside">
-                                <a href="./login/CT_Accesorios.html" class="nav_link nav_link--inside">Accesorios</a>
+                                <a href="./login/CT_Accesorios.php" class="nav_link nav_link--inside">Accesorios</a>
 
                             </li>
 
@@ -64,10 +53,10 @@
 
                         <ul class="list_show">
                             <li class="list_inside">
-                                <a href="login/Contactanos.html" class="nav_link nav_link--inside">Número</a>
+                                <a href="Contactanos.php" class="nav_link nav_link--inside">Número</a>
                             </li>
                             <li class="list_inside">
-                                <a href="login/Contactanos.html" class="nav_link nav_link--inside">Ubicación</a>
+                                <a href="Contactanos.php" class="nav_link nav_link--inside">Ubicación</a>
                             </li>
                         </ul>
                     </li>
@@ -82,7 +71,7 @@
 
                         <ul class="list_show">
                             <li class="list_inside">
-                                <a href="login/Conocenos.html" class="nav_link nav_link--inside">Misión y Visión</a>
+                                <a href="Conocenos.php" class="nav_link nav_link--inside">Misión y Visión</a>
                             </li>
                         </ul>
                     </li>
@@ -92,6 +81,6 @@
             </nav>
 
         </aside>
-        <main>
+        <main class="main">
 
         
